@@ -78,7 +78,13 @@ public class Header {
                     }
 
                     int close = function.lastIndexOf(')');
-                    if(close >= 0) function = function.substring(0, close + 1);
+                    if(close >= 0) {
+                    	int lastConstIdx = function.lastIndexOf("t");
+                    	if(lastConstIdx>close){
+                    		close = lastConstIdx;
+                    	}
+                    	function = function.substring(0, close + 1);
+                    }
 
                     return function;
                 }).filter(Objects::nonNull).forEachOrdered(function -> {
