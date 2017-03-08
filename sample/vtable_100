@@ -1,0 +1,22 @@
+.data.rel.ro:01D525E4 ; `vtable for'Enchant
+.data.rel.ro:01D525E4 _ZTV7Enchant    DCB    0                ; DATA XREF: Enchant::Enchant(int,int,std::string const&,std::string const&,int,int)+Eo
+.data.rel.ro:01D525E4                                         ; Enchant::~Enchant()+Eo ...
+.data.rel.ro:01D525E5                 DCB    0
+.data.rel.ro:01D525E6                 DCB    0
+.data.rel.ro:01D525E7                 DCB    0
+.data.rel.ro:01D525E8                 DCB    0
+.data.rel.ro:01D525E9                 DCB    0
+.data.rel.ro:01D525EA                 DCB    0
+.data.rel.ro:01D525EB                 DCB    0
+.data.rel.ro:01D525EC                 DCD _ZN7EnchantD2Ev+1
+.data.rel.ro:01D525F0                 DCD _ZN7EnchantD0Ev+1
+.data.rel.ro:01D525F4                 DCD _ZNK7Enchant10getMinCostEi+1
+.data.rel.ro:01D525F8                 DCD _ZNK7Enchant10getMaxCostEi+1
+.data.rel.ro:01D525FC                 DCD _ZNK7Enchant11getMinLevelEv+1
+.data.rel.ro:01D52600                 DCD _ZNK7Enchant11getMaxLevelEv+1
+.data.rel.ro:01D52604                 DCD _ZNK7Enchant19getDamageProtectionEiRK18EntityDamageSource+1
+.data.rel.ro:01D52608                 DCD _ZNK7Enchant14getDamageBonusEiRK6Entity+1
+.data.rel.ro:01D5260C                 DCD _ZNK7Enchant12doPostAttackER3MobS1_i+1
+.data.rel.ro:01D52610                 DCD _ZNK7Enchant10doPostHurtER12ItemInstanceR3MobS3_i+1
+.data.rel.ro:01D52614                 DCD _ZNK7Enchant20isMeleeDamageEnchantEv+1
+.data.rel.ro:01D52618                 DCD _ZNK7Enchant19isProtectionEnchantEv+1

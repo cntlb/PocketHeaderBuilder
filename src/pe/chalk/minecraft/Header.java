@@ -48,7 +48,7 @@ public class Header {
         try{
             final Path path = Paths.get("out", this.getClassName() + ".h");
             if(Files.notExists(path.getParent())) Files.createDirectories(path.getParent());
-
+            System.out.println(path.toAbsolutePath());
             try(final BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8)){
                 writer.write("#pragma once"); writer.newLine();
                 writer.newLine();
@@ -78,7 +78,14 @@ public class Header {
                     }
 
                     int close = function.lastIndexOf(')');
-                    if(close >= 0) function = function.substring(0, close + 1);
+                    int aConst = function.lastIndexOf("const");
+                    if(close >= 0) {
+                        if(aConst>close){
+                            function = function.substring(0, aConst + "const".length());
+                        }else {
+                            function = function.substring(0, close + 1);
+                        }
+                    }
 
                     return function;
                 }).filter(Objects::nonNull).forEachOrdered(function -> {
