@@ -1,0 +1,36 @@
+.data.rel.ro:0207CBDC ; `vtable for'ClientSkinInfoData
+.data.rel.ro:0207CBDC _ZTV18ClientSkinInfoData DCB    0       ; DATA XREF: ClientSkinInfoData::ClientSkinInfoData(void)+10o
+.data.rel.ro:0207CBDC                                         ; ClientSkinInfoData::~ClientSkinInfoData()+Eo ...
+.data.rel.ro:0207CBDD                 DCB    0
+.data.rel.ro:0207CBDE                 DCB    0
+.data.rel.ro:0207CBDF                 DCB    0
+.data.rel.ro:0207CBE0                 DCB    0
+.data.rel.ro:0207CBE1                 DCB    0
+.data.rel.ro:0207CBE2                 DCB    0
+.data.rel.ro:0207CBE3                 DCB    0
+.data.rel.ro:0207CBE4                 DCD _ZN18ClientSkinInfoDataD2Ev+1
+.data.rel.ro:0207CBE8                 DCD _ZN18ClientSkinInfoDataD0Ev+1
+.data.rel.ro:0207CBEC                 DCD _ZN18ClientSkinInfoData10updateSkinERKSsRKSt6vectorIhSaIhEE+1
+.data.rel.ro:0207CBF0                 DCD _ZN18ClientSkinInfoData14getTexturePairEv+1
+.data.rel.ro:0207CBF4                 DCD _ZN18ClientSkinInfoData7getDataEv+1
+.data.rel.ro:0207CBF8                 DCD _ZN18ClientSkinInfoData13getDataLengthEv+1
+.data.rel.ro:0207CBFC                 DCD _ZN18ClientSkinInfoData15hasValidTextureEv+1
+.data.rel.ro:0207CC00                 DCD _ZN12SkinInfoData25validateAndResizeSkinDataERSt6vectorIhSaIhEE+1
+.data.rel.ro:02055CA4 ; `vtable for'SkinInfoData
+.data.rel.ro:02055CA4 _ZTV12SkinInfoData DCB    0             ; DATA XREF: SkinInfoData::SkinInfoData(void)+8o
+.data.rel.ro:02055CA4                                         ; SkinInfoData::~SkinInfoData()+Co ...
+.data.rel.ro:02055CA5                 DCB    0
+.data.rel.ro:02055CA6                 DCB    0
+.data.rel.ro:02055CA7                 DCB    0
+.data.rel.ro:02055CA8                 DCB    0
+.data.rel.ro:02055CA9                 DCB    0
+.data.rel.ro:02055CAA                 DCB    0
+.data.rel.ro:02055CAB                 DCB    0
+.data.rel.ro:02055CAC                 DCD _ZN12SkinInfoDataD2Ev+1
+.data.rel.ro:02055CB0                 DCD _ZN12SkinInfoDataD0Ev+1
+.data.rel.ro:02055CB4                 DCD _ZN12SkinInfoData10updateSkinERKSsRKSt6vectorIhSaIhEE+1
+.data.rel.ro:02055CB8                 DCD _ZN12SkinInfoData14getTexturePairEv+1
+.data.rel.ro:02055CBC                 DCD __cxa_pure_virtual+1
+.data.rel.ro:02055CC0                 DCD __cxa_pure_virtual+1
+.data.rel.ro:02055CC4                 DCD __cxa_pure_virtual+1
+.data.rel.ro:02055CC8                 DCD _ZN12SkinInfoData25validateAndResizeSkinDataERSt6vectorIhSaIhEE+1
